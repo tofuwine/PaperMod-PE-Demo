@@ -1,0 +1,221 @@
+baseURL: "https://tofuwine.github.io/"
+title: PaperMod-PE
+paginate: 5
+defaultContentLanguage: zh
+theme: PaperMod-PE
+
+enableRobotsTXT: true
+buildDrafts: true
+buildFuture: false
+buildExpired: false
+enableInlineShortcodes: true
+enableEmoji: true
+
+minify:
+  disableXML: true
+  minifyOutput: true
+
+params:
+  env: production # to enable google analytics, opengraph, twitter-cards and schema.
+  title: PaperMod-PE
+  description: "ExampleSite description"
+  keywords: [ Blog, PaperMod-PE ]
+  author: tofuwine
+  DateFormat: "2006-01-02"
+  defaultTheme: auto
+  disableThemeToggle: true
+  disableThemeToggleFloat: false
+  enableGitInfo: true
+  ShowReadingTime: true
+  ShowShareButtons: false
+  ShowPostNavLinks: true
+  ShowBreadCrumbs: true
+  ShowWordCount: true
+  ShowRssButtonInSectionTermList: true
+  UseHugoToc: true
+  disableSpecial1stPost: false
+  disableScrollToTop: false
+  disableScrollToBottom: false
+  comments: true
+  hideMeta: false
+  hideSummary: false
+  showToc: true
+  tocOpen: true
+  hideAuthor: true
+  ShowTop: true
+  fancybox: true
+  math: true
+  enableCDN: false
+
+  #####################################
+  ############ PaperMod-PE ############
+  #####################################
+
+  # 赞赏
+  rewardButton: 赞赏
+  rewardDescription: 如果本文对你有所帮助，可以点击上方按钮请作者喝杯咖啡！
+
+  # 评论区
+  discussionTitle: 欢迎来到评论区
+  discussionSubtitle: 感谢您的耐心阅读！来选个表情，或者留个评论吧！
+
+  # 打赏相关
+  reward: true
+  WechatPay: images/wechat_pay.jpg
+  Alipay: images/alipay.jpg
+
+  # Fancybox 灯箱
+  disableFancybox: false
+
+  assets:
+    disableFingerprinting: true
+    favicon: "./images/hugo.png"
+    favicon16x16: "./images/hugo.png"
+    favicon32x32: "./images/hugo.png"
+    apple_touch_icon: "./images/hugo.png"
+    safari_pinned_tab: "./images/hugo.png"
+
+  label:
+    text: "PaperMod-PE Theme"
+    icon: /images/hugo.png
+    iconHeight: 35
+
+  # profile-mode
+  profileMode:
+    enabled: true # needs to be explicitly set
+    title: Hugo Theme PaperMod-PE
+    subtitle: "\U0001F44B Hi, welcome to PaperMod-PE example site, enjoy yourself !"
+    imageUrl: "images/hugo.png"
+    imageWidth: 120
+    imageHeight: 120
+    buttons:
+      - name: 💖 最新
+        url: latest
+      - name: 🧑‍💻 关于
+        url: about
+
+  socialIcons:
+    - name: github
+      url: "https://github.com/tofuwine"
+    - name: email
+      url: "mailto://tofuwine@outlook.com"
+    - name: RSS
+      url: "index.xml"
+
+  analytics:
+    google:
+      SiteVerificationTag: "XYZabc"
+    bing:
+      SiteVerificationTag: "XYZabc"
+    yandex:
+      SiteVerificationTag: "XYZabc"
+
+  cover:
+    hidden: true # hide everywhere but not in structured data
+    hiddenInList: true # hide on list pages and home
+    hiddenInSingle: true # hide on single page
+
+  editPost:
+    URL: "https://github.com/tofuwine/PaperMod-PE-Demo/blob/master/content"
+    Text: "Suggest Changes" # edit text
+    appendFilePath: true # to append file path to Edit link
+
+  # for search
+  # https://fusejs.io/api/options.html
+  # https://www.fusejs.io/api/methods.html#search
+  fuseOpts:
+    isCaseSensitive: false
+    shouldSort: true
+    location: 0
+    distance: 1000
+    threshold: 0.0
+    minMatchCharLength: 0
+    keys: ["title", "permalink", "summary", "content"]
+
+  giscus:
+    repo: "tofuwine/tofuwine.github.io"
+    repoId: "R_kgDOLz45lw"
+    category: "Announcements"
+    categoryId: "DIC_kwDOLz45l84CfBDJ"
+    mapping: "pathname"
+    strict: "0"
+    reactionsEnabled: "1"
+    emitMetadata: "0"
+    inputPosition: "top"
+    lightTheme: "light"
+    darkTheme: "dark"
+    lang: "zh-CN"
+
+menu:
+  main:
+    - identifier: articles
+      name: 📝 文章
+      url: /articles
+      weight: 1
+    - identifier: archives
+      name: 🗂️ 归档
+      url: /archives
+      weight: 2
+    - identifier: friend
+      name: 🤝 友链
+      url: /friend
+      weight: 3
+    - identifier: about
+      name: 🧑‍💻 关于
+      url: about
+      weight: 4
+    - identifier: search
+      name: 🔍 搜索
+      url: /search
+      weight: 5
+# Read: https://github.com/adityatelange/hugo-PaperMod/wiki/FAQs#using-hugos-syntax-highlighter-chroma
+pygmentsUseClasses: false
+markup:
+  highlight:
+    lineNos: true
+    noClasses: false
+  goldmark:
+    renderer:
+      unsafe: true
+    extensions:
+      passthrough:
+        delimiters:
+          block:
+            - - $$
+              - $$
+          inline:
+            - - \$
+              - \$
+        enable: true
+
+# 设置文章分类 https://gohugo.io/content-management/taxonomies
+taxonomies:
+  tag: tags
+  series: series
+
+outputs:
+  home:
+    - html
+    - rss
+    - JSON
+  page:
+    - html
+  rss:
+    - rss
+  section:
+    - html
+    - rss
+  taxonomy:
+    - html
+    - rss
+  term:
+    - html
+    - rss
+
+frontmatter:
+  date:
+    - :filename
+    - :default
+  lastmod:
+    - :git
+    - lastmod
