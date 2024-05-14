@@ -117,6 +117,62 @@ public class HelloHugo {
 
 移植自 Hugo 的 [Loveit 主题](https://github.com/dillonzq/LoveIt)。
 
+{{< admonition type=info title=教程参考 open=true >}}
+
+- [如何移植HUGO Loveit主題的admonition shortcodes —— 懶懶](https://lanwp.org/18-hugo-shortcodes-admonition/)
+
+{{< /admonition >}}
+
+目前支持的 admonition 类型:
+
+{{< admonition type=note title=note open=false >}}
+admonition - note
+{{< /admonition >}}
+
+{{<admonition type=abstract title=abstract open=false >}}
+admonition - abstract
+{{< /admonition >}}
+
+{{<admonition type=info title=info open=false >}}
+admonition - info
+{{< /admonition >}}
+
+{{<admonition type=tip title=tip open=false >}}
+admonition - tip
+{{< /admonition >}}
+
+{{<admonition type=success title=success open=false >}}
+admonition - success
+{{< /admonition >}}
+
+{{<admonition type=question title=question open=false >}}
+admonition - question
+{{< /admonition >}}
+
+{{<admonition type=warning title=warning open=false >}}
+admonition - warning
+{{< /admonition >}}
+
+{{<admonition type=failure title=failure open=false >}}
+admonition - failure
+{{< /admonition >}}
+
+{{<admonition type=danger title=danger open=false >}}
+admonition - danger
+{{< /admonition >}}
+
+{{<admonition type=bug title=bug open=false >}}
+admonition - bug
+{{< /admonition >}}
+
+{{<admonition type=example title=example open=false >}}
+admonition - example
+{{< /admonition >}}
+
+{{<admonition type=quote title=quote open=false >}}
+admonition - quote
+{{< /admonition >}}
+
 ### hl
 
 文本高亮。效果如下：
@@ -130,4 +186,25 @@ This is a highlight text.
 点击下面的图片预览效果：
 
 ![hugo logo](/images/hugo.png)
+
+## KaTex
+
+{{<admonition type=info title=教程参考 open=true >}}
+[Mathematics in Markdown —— Hugo Doc](https://gohugo.io/content-management/mathematics/)
+{{< /admonition >}}
+
+添加对 LaTex 公式/内联公式的支持。以下是效果展示：
+
+### 块显示
+
+$$
+\begin{aligned}
+KL(\hat{y} || y) &= \sum_{c=1}^{M}\hat{y}_c \log{\frac{\hat{y}_c}{y_c}} \\
+JS(\hat{y} || y) &= \frac{1}{2}(KL(y||\frac{y+\hat{y}}{2}) + KL(\hat{y}||\frac{y+\hat{y}}{2}))
+\end{aligned}
+$$
+
+### 内联显示
+
+两数和的平方，等于它们的平方和加上它们的积的2倍。 即：\$(a+b)^2=a^2+2ab+b^2\$
 

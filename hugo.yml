@@ -43,29 +43,30 @@ params:
   tocOpen: true
   hideAuthor: true
   ShowTop: true
-  fancybox: true
-  math: true
-  enableCDN: false
 
   #####################################
   ############ PaperMod-PE ############
   #####################################
-
   # 赞赏
+  enableReward: true
   rewardButton: 赞赏
   rewardDescription: 如果本文对你有所帮助，可以点击上方按钮请作者喝杯咖啡！
-
   # 评论区
   discussionTitle: 欢迎来到评论区
   discussionSubtitle: 感谢您的耐心阅读！来选个表情，或者留个评论吧！
-
   # 打赏相关
   reward: true
   WechatPay: images/wechat_pay.jpg
   Alipay: images/alipay.jpg
-
   # Fancybox 灯箱
-  disableFancybox: false
+  enableFancybox: true
+  # copyright
+  enableCopyright: true
+  # 数学公式渲染方式: `katex` or `mathjax`
+  mathematicsRenderer: mathjax
+  # 悬浮按钮 —— 主题切换
+  enableThemeToggleFloat: true
+
 
   assets:
     disableFingerprinting: true
@@ -133,10 +134,10 @@ params:
     keys: ["title", "permalink", "summary", "content"]
 
   giscus:
-    repo: "tofuwine/tofuwine.github.io"
-    repoId: "R_kgDOLz45lw"
+    repo: "tofuwine/PaperMod-PE-Demo"
+    repoId: "R_kgDOL6sXSg"
     category: "Announcements"
-    categoryId: "DIC_kwDOLz45l84CfBDJ"
+    categoryId: "DIC_kwDOL6sXSs4CfWmU"
     mapping: "pathname"
     strict: "0"
     reactionsEnabled: "1"
