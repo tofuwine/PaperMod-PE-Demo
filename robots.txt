@@ -1,0 +1,3 @@
+User-agent: *
+Disallow:
+Sitemap: https://tofuwine.github.io/sitemap.xml
