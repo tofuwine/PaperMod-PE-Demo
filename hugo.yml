@@ -23,7 +23,6 @@ params:
   author: tofuwine
   DateFormat: "2006-01-02"
   defaultTheme: auto
-  disableThemeToggle: false
   enableGitInfo: true
   ShowReadingTime: true
   ShowShareButtons: false
@@ -47,17 +46,17 @@ params:
   # 赞赏
   enableReward: true
   rewardDescription: 如果本文对你有所帮助，可以点击上方按钮请作者喝杯咖啡！
+  WechatPay: images/wechat_pay.jpg
+  Alipay: images/alipay.jpg
   # 评论区
   discussionTitle: 欢迎来到评论区
   discussionSubtitle: 感谢您的耐心阅读！来选个表情，或者留个评论吧！
-  # 打赏相关
-  reward: true
-  WechatPay: images/wechat_pay.jpg
-  Alipay: images/alipay.jpg
   # Fancybox 灯箱
   enableFancybox: true
   # copyright
   enableCopyright: true
+  # 启用数学公式渲染
+  enableMath: true
   # 数学公式渲染方式: `katex` or `mathjax`
   mathematicsRenderer: mathjax
   # 悬浮按钮 —— Theme Toggle
@@ -66,7 +65,16 @@ params:
   enableScrollToTop: true
   # 悬浮按钮 —— Go to Comment
   enableScrollToComment: true
+  # 启用编辑文章链接
   enableEditPost: false
+  # license 链接
+  licenseLink: "https://creativecommons.org/licenses/by-nc/4.0/"
+  # license 显示名
+  licenseName: "CC BY-NC 4.0"
+  # 联系方式
+  contactEmail: tofuwine@outlook.com
+  # TypeIt
+  enableTypeIt: true
 
 
   assets:
