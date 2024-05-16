@@ -2,39 +2,39 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>PaperMod-PE</title>
-    <link>https://tofuwine.github.io/</link>
+    <link>https://tofuwine.github.io/PaperMod-PE-Demo/</link>
     <description>Recent content on PaperMod-PE</description>
     <generator>Hugo -- 0.125.3</generator>
     <language>zh</language>
     <lastBuildDate>Mon, 01 Jan 0001 00:00:00 +0000</lastBuildDate>
-    <atom:link href="https://tofuwine.github.io/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://tofuwine.github.io/PaperMod-PE-Demo/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>PaperMod-PE 主题样式</title>
-      <link>https://tofuwine.github.io/articles/21aecad4-55c9-46ca-bb2b-2cc74427507e/</link>
+      <link>https://tofuwine.github.io/PaperMod-PE-Demo/articles/21aecad4-55c9-46ca-bb2b-2cc74427507e/</link>
       <pubDate>Mon, 13 May 2024 00:00:00 +0000</pubDate>
-      <guid>https://tofuwine.github.io/articles/21aecad4-55c9-46ca-bb2b-2cc74427507e/</guid>
+      <guid>https://tofuwine.github.io/PaperMod-PE-Demo/articles/21aecad4-55c9-46ca-bb2b-2cc74427507e/</guid>
       <description>描述示例: 快速预览各种样式 (Hugo &amp;amp; PaperMod-PE 主题)</description>
     </item>
     <item>
       <title>💖 最新文章</title>
-      <link>https://tofuwine.github.io/latest/</link>
+      <link>https://tofuwine.github.io/PaperMod-PE-Demo/latest/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://tofuwine.github.io/latest/</guid>
+      <guid>https://tofuwine.github.io/PaperMod-PE-Demo/latest/</guid>
       <description></description>
     </item>
     <item>
       <title>🤝 友链</title>
-      <link>https://tofuwine.github.io/friend/</link>
+      <link>https://tofuwine.github.io/PaperMod-PE-Demo/friend/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://tofuwine.github.io/friend/</guid>
+      <guid>https://tofuwine.github.io/PaperMod-PE-Demo/friend/</guid>
       <description>Tofuwine&amp;#39;s Blog 记录、 分享，仅此。 友链申请 如果您希望互相添加友链，请按如下格式在评论区留言：
 名称 Tofuwine&amp;rsquo;s Blog 网址 https://www.tofuwine.cn 图标 https://www.tofuwine.cn/images/favicon.svg 描述 记录、 分享，仅此。 作者将在审核通过后，将您的信息添加到友链列表。</description>
     </item>
     <item>
       <title>🧑‍💻 关于</title>
-      <link>https://tofuwine.github.io/about/</link>
+      <link>https://tofuwine.github.io/PaperMod-PE-Demo/about/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://tofuwine.github.io/about/</guid>
+      <guid>https://tofuwine.github.io/PaperMod-PE-Demo/about/</guid>
       <description>PaperMod-PE 这是 PaperMod-PE 示例站点。你可以通过此站点预览 PaperMod-PE 的样式。</description>
     </item>
   </channel>
