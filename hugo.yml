@@ -23,8 +23,7 @@ params:
   author: tofuwine
   DateFormat: "2006-01-02"
   defaultTheme: auto
-  disableThemeToggle: true
-  disableThemeToggleFloat: false
+  disableThemeToggle: false
   enableGitInfo: true
   ShowReadingTime: true
   ShowShareButtons: false
@@ -34,8 +33,6 @@ params:
   ShowRssButtonInSectionTermList: true
   UseHugoToc: true
   disableSpecial1stPost: false
-  disableScrollToTop: false
-  disableScrollToBottom: false
   comments: true
   hideMeta: false
   hideSummary: false
@@ -49,7 +46,6 @@ params:
   #####################################
   # 赞赏
   enableReward: true
-  rewardButton: 赞赏
   rewardDescription: 如果本文对你有所帮助，可以点击上方按钮请作者喝杯咖啡！
   # 评论区
   discussionTitle: 欢迎来到评论区
@@ -64,8 +60,13 @@ params:
   enableCopyright: true
   # 数学公式渲染方式: `katex` or `mathjax`
   mathematicsRenderer: mathjax
-  # 悬浮按钮 —— 主题切换
+  # 悬浮按钮 —— Theme Toggle
   enableThemeToggleFloat: true
+  # 悬浮按钮 —— Go to Top
+  enableScrollToTop: true
+  # 悬浮按钮 —— Go to Comment
+  enableScrollToComment: true
+  enableEditPost: false
 
 
   assets:
